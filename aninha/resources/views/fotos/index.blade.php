@@ -7,7 +7,7 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm-10">
-            <h1>lista da ana</h1>
+            <h1>lista da ana oiii</h1>
         </div>
         <div class="col-sm-2">
             <a href="{{ route('fotos-create') }}" class="btn btn-success">Novo</a>
