@@ -13,7 +13,7 @@ class CreateAnasTable extends Migration
      */
     public function up()
     {
-        Schema::create('anas', function (Blueprint $table) {
+        Schema::create('photos', function (Blueprint $table) {
             $table->id();
             $table->string('nome', 55);
             $table->string('categoria', 55);

@@ -43,3 +43,8 @@ Route::prefix('fotos')->group(function(){
 Route::fallback(function(){
     return "ERROR";
 });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
